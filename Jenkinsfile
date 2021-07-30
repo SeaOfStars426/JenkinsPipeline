@@ -5,7 +5,7 @@ pipeline{
 	stages {
 		stage('Build') {
 			steps {
-				sh 'node --version'
+				sh 'docker --version'
 				sh 'pwd'
 			}
 		}
